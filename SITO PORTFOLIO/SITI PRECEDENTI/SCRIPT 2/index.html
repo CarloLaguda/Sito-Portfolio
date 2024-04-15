@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SITO</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <div class="contenitore">
+            <img id="IMGMACCHINA"src="IMMAGINI\RedBull.jpg" alt="REDBULL">
+            <button id="bottone" class="btn" onclick="Cambia_auto()">Passa a qualcosa di meglio </button>
+        </div>
+
+        <div class="calcolatrice">
+            <h1>CALCOLATRICE</h1>
+            <input type="text" id="primo_numero">
+            <input type="text" id ="secondo_numero">
+            <button onclick="OperazioniValore()">Esegui</button>
+            <h1>Somma</h1>
+            <input type="readonly" id="somma">
+            <h1>Sottrazione</h1>
+            <input type="readonly" id="sottrazione">
+            <h1>Moltiplicazione</h1>
+            <input type="readonly" id="moltiplicazione">
+            <h1>Divisione</h1>
+            <input type="readonly" id="divisione">
+            <h1>Elevamento a potenza</h1>
+            <input type="readonly" id ="elevamento">
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

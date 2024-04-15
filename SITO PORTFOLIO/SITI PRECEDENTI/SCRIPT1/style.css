@@ -1,0 +1,29 @@
+html{
+    background-color: rgba(0, 0, 126, 0.651);
+}
+.contenitore{
+    float: none;
+    margin: 0 auto;
+}
+
+img{
+    width: 500px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.btn{
+    width: 180px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 35px;
+    font-size: 18px;
+}
+
+.calcolatrice{
+    margin-left: 775px;
+}
+

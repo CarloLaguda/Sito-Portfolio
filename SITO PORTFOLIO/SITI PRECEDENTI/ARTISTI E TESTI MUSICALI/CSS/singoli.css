@@ -1,0 +1,78 @@
+.imgFotoCantanti {/*TUTTE LE CLASSI E GLI ID*/
+    padding-top: 20px;
+    width: 525px;
+    display: block;
+    margin: 0 auto; 
+    border-radius: 20px;
+}
+.BioGrafia{
+   padding-left: 100px;
+   padding-right: 100px;
+}
+.testo{
+    width: 600px;
+    margin: 0 auto;
+    font-size: 10px;
+}
+.Brani{
+    font-size: 25px;
+}
+.Artista{
+    margin-top: -1px;
+    font-size: 27px;
+    padding-right: 30px;
+}
+.imgButton{
+    width: 325px;
+    height: 325px;
+    margin: 0 auto;
+    display: block;
+    padding-right: 30px;
+    border-radius: 50%;
+}
+.imgButton:hover{
+    transition-duration: 0.7s;
+    transform: translateY(-25px);
+}
+.linkMusica{
+    margin-top: -96px;
+    margin-left: 86%;
+    width: 200px;
+    height: 80px;
+    text-align: center;
+}
+.link{
+    color: white;
+    font-size: 22px;
+    margin-top: -10px;
+}
+.DivSup {
+    margin-top: 0;
+    height: 70px;
+    width: 100%;
+    background-color:  #d50a36;
+}
+.nuovo{
+    width: 810px;
+    height: 775px;
+    margin: 0 auto;
+    display: block;
+}
+.singola{
+    padding-left: 40px;
+    float: left;
+    margin: 0 auto;
+    display: block;
+}
+#Testo1{
+    color: rgb(33, 33, 33);
+}
+#Testo2{
+    color: rgb(38, 97, 97);
+}
+#Testo3{
+    color:rgb(124, 42, 59);
+}
+#Testo4{
+    color:rgb(203, 26, 26);
+}

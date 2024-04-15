@@ -1,0 +1,84 @@
+/*Stile, font e sfondi della home page*/
+#generale{
+    background-color:rgb(101, 101, 101);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 75px;
+}
+marquee{
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+}
+div{ /*Div Centrale*/
+    width: 1300px;
+    height: 200px;
+    background-color: rgb(78, 78, 78);
+    float: none;
+    margin: 0 auto;
+    border:7px solid  rgb(78, 78, 78);
+    border-radius: 20px;
+}
+.divGiglio{
+    background-color: rgb(101, 101, 101);
+    border-color:  rgb(101, 101, 101);
+    margin: 0 auto;
+    width: 90;
+    height: 100px;
+}
+.divSuperiore{  /* Div stile banda superiore*/
+    width:1300px;
+    height: 70px;
+    background-color: rgb(78, 78, 78);
+    float: none;
+    margin: 0 auto;
+    border:7px solid rgb(78, 78, 78);
+    border-radius: 10px;
+}
+.imgGiglio{
+    height: 100;
+    width: 90;
+}
+p{
+    margin-top: 0;
+    color: #ffffff;
+    font-size: 18px;
+}
+table {
+    border-collapse: collapse;
+    width: 1300px;
+    margin-top: 100px;
+}
+th{
+    border: 5px solid #ffffff;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+}
+td {
+    border: 5px solid#ffffff;
+    text-align:left;
+    padding: 8px;
+    color: #ffffff;
+    font-size: 23px;
+    text-align: center;
+}
+.imgGioconda{
+    width: 130;
+    height: 200;
+}
+.imgDavid{
+    width: 150;
+    height: 200;
+}
+.IMGUltima{
+    width: 230;
+    height: 100;
+}
+a{
+    color: #ffffff;
+    font-size: 23px;
+}

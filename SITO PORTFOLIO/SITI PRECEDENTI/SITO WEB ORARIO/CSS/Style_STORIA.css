@@ -1,0 +1,44 @@
+#generale {
+    background-color:#d59657;
+    font-family:'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+}
+
+p {
+    font-size: 23px;
+}
+
+dl{
+    font-size: 23px;
+}
+
+img{
+    display: block;
+    margin:0 auto;
+    width: 350;
+}
+
+button{
+    margin-top: 20px;
+    width: 290px;
+    height: 70;
+    border-radius: 20px;
+    background-color:#d59657;
+    font-size: 18;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;;
+}
+
+button:hover{
+    background-color:#9a6632;
+}
+
+a {
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+}

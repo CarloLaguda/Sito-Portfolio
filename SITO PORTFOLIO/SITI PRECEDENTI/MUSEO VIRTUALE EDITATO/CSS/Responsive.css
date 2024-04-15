@@ -1,0 +1,86 @@
+@media (min-width: 950px) and (max-width: 1199px) {  /*CREO IL RESPONSIVE DEI VARI ELEMENTI*/
+    h1 {
+        font-size: 48px;
+    }
+    h3{
+        font-size: 29px;
+    }
+    li,p{
+        font-size: 24px;
+    }
+}
+@media (min-width: 768px) and (max-width: 949px) {
+    h1 {
+        font-size: 43px;
+    }
+    h3{
+        font-size: 28px;
+    }
+    li, p{
+        font-size: 23px;
+    }
+    td{
+        font-size: 21px;
+    }
+}
+@media (min-width: 650px) and (max-width: 767px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h3{
+        font-size: 23px;
+    }
+
+    li, p{
+        font-size: 22px;
+    }
+
+    .imgTable{
+        height: 130px;
+        width: 175px;
+    }
+
+    td{
+        font-size: 20px;
+    }
+}
+@media(max-width: 649px){
+
+    h1 {
+        font-size: 38px;
+    }
+    h3{
+        font-size: 19px;
+    }
+    li, p{
+        font-size: 22px;
+    }
+    td{
+        font-size: 18px;
+    }
+    .imgTable{ /*MODIFICO IL RESPONSIVE DELLE IMMAGINE QUANDO IL SITO VIENE RIMPICCIOLITO*/
+        height: 90px;
+        width: 95px;
+    }
+    .imgSonde{
+        height: 200px;
+        width: 300px;
+    }
+    .imgSputnik{
+        height: 200px;
+        width: 300px;
+    }
+    .imgStazioni{
+        height: 200px;
+        width: 300px;
+    }
+    .imgLaika{
+        height: 200px;
+        width: 300px;
+    }
+    .imgApollo{
+        height: 200px;
+        width: 300px; 
+    }
+}

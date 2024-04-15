@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calcoloIMC</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div>
+        <h1>CALCOLA IL TUO INDICE DI MASSA CORPOREA!</h1>
+    </div>
+    <div class="principale">
+        <p class="separatore"></p>
+        <p class="scritte">Inserisci qui la tua altezza in mentri, usando il punto come separatore</p>
+        <input type="text" id="txtaltezza" class="scritte">
+        <!--input box per inserire i dati-->
+        <p class="scritte">Inserisci qui il tuo pso in kilogrammi, usando il punto come separatore</p>
+        <input type="text" id="txtpeso" class="scritte">
+        <p class="scritte">Inserisci qui la tua et&aacute;</p>
+        <input type="number" id="txtEta" class="scritte" min="0" max="125"> </br>
+        <button id="button" onclick="confermaDati()">CONFERMA DATI</button>
+        <!--al click chiamo lo script-->
+        <p class="separatore"></p>
+        <h2>RISULTATO</h2>
+        <p id="result"></p>
+    </div>
+    <footer>
+        <script src="script.js"></script>
+    </footer>
+</body>
+
+</html>

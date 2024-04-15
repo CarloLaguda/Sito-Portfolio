@@ -1,0 +1,60 @@
+#Sfondo{
+    background-color: #ECE2C6;
+}
+.barraNavigazione{
+    width: 95%;
+    height: 90px;
+    background-color:#3b5da0;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+.DivSuperiore{
+    padding-top:15px;
+    width: 100%;
+    height: 130px;
+    background-color: #1F284C
+}
+
+.menu:hover{
+    box-shadow: 0px 0px 8px 5px 
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.titolo{
+    text-align: center;
+    margin:  10px 0px  0px 0px ;
+    padding: 1px;
+}
+.menu{
+    margin: -93px 0px 0px 15px;
+    height: 70px;
+    width: 65px;
+    transition-duration: 0.1s;
+    border-radius: 15px;
+    background-color: azure;
+}
+h1{
+    font-size: 50px;
+    color: white;
+    margin-top: 10px;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+.elaboriamo{
+    width: 0;
+    height: 0;
+    margin: -99px;
+    border-top: 890px solid #c3b38c;
+    border-right:2052px  solid transparent;
+}
+/*colori:
+#1F284C blu scuro
+#2D4472 blu chiaro
+#6E6352 marrone
+#D9CCAC beige
+#ECE2C6 beige chiaro*/
