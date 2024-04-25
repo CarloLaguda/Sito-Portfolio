@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type = "text/css">
+    <title>Javascript 3</title>
+</head>
+<body>
+    <H1>Javascript 3</H1>
+    <h2>Il seguente sito contiene solo il testo dello script</h2>
+    <div>
+        <p>let text = '{ "REGIONI" : [' <br> 
+            '{ "nome":"Lombardia" , "abitanti":' + Math.floor(Math.random() * (200 + 1)) + '},' + // genero il numero di abitanti casualmente <br> 
+            '{ "nome":"Piemonte" , "abitanti":' + Math.floor(Math.random() * (200 + 1)) + '},' + <br> 
+            '{ "nome":"Puglia" , "abitanti":' + Math.floor(Math.random() * (200 + 1)) + '},' + <br> 
+            '{ "nome":"Campania" , "abitanti":' + Math.floor(Math.random() * (200 + 1)) + '} ]}'; <br> 
+            
+            let txt = JSON.parse(text); <br> 
+            
+            let myPromise = new Promise(function(vero, falso){<br> 
+              if(txt.REGIONI[0].abitanti >= 0 && txt.REGIONI[1].abitanti >= 0 && txt.REGIONI[2].abitanti >= 0 && txt.REGIONI[3].abitanti >= 0){ // verifico se il numero di abitanti è maggiore per ognuna<br> 
+                vero()<br> 
+              }else{<br> 
+                falso()<br> 
+              }<br> 
+            })<br> 
+            
+            myPromise.then(<br> 
+              function(value){ <br> 
+                let x = Math.floor(Math.random() * txt.REGIONI.length);<br> 
+                console.log(txt.REGIONI[x].nome + " " + txt.REGIONI[x].abitanti); <br> 
+              },<br> 
+              function(error){ console.log("Qualcosa è andato storto") }<br> 
+            )</p>
+    </div>
+</body>
+<footer>
+    <script src="script3.js"></script>
+</footer>
+</html>
