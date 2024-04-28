@@ -3,15 +3,32 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: rgb(245, 245, 245);
+    background: rgb(2,0,36); 
 }
-
 /* Imposta la larghezza massima del contenitore del modulo di contatto */
 .maxDivMail {
-    max-width: 675px;
+    max-width: 625px;
 }
-
-/* Imposta il colore di sfondo specifico */
-.bk {
-    background-color: rgb(245, 245, 245);
+/*Spazio sello spot dal H1*/
+.span_From_H1{
+    margin-top: 50px;
+}
+/*Line separatrice e grandezza della linea*/
+.line_size{
+    max-width: 590px;
+}
+.white_line {
+    background-color: white;
+}
+/*Spazio del h1 h2 dall'inizio della pagina */
+.space_top{
+    padding: 75px;
+}
+/*Spazio del nome dall'inizio della pagina */
+.space_name{
+    padding: 20px;
+}
+/*Spazio del modul mail da tutto il resto  */
+.span_mail{
+    margin-top: 200px;
 }
