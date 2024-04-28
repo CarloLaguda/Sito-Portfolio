@@ -30,5 +30,8 @@ html, body {
 }
 /*Spazio del modul mail da tutto il resto  */
 .span_mail{
-    margin-top: 200px;
+    margin-top: 220px;
+}
+.margin-btn-card{
+    padding-bottom: 5px;
 }

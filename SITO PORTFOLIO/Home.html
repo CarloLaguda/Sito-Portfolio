@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"><!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/style.css" type="text/css"> <!-- CSS -->
     <link rel="shortcut icon" href="favicon\favicon-32x32.png" type="image/x-icon"> <!-- favicon -->
@@ -35,11 +35,13 @@
             <div class="col container">
                 <div class="card h-100"><!--poi prova a mod--> 
                     <div class="card-body">
-                        <h5 class="card-title">Card title 1</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <h5 class="card-title">Artisti Preferiti</h5>
+                        <p class="card-text">In questo sito troverai alcuni tra i miei artisti. Troverai anche una tabella con le mie canzoni preferite degli artisti in questione.</p>
+                        <button class="btn btn-primary btn-sm">Visita</button>
+                        <button class="btn btn-secondary btn-sm" onclick="download_file_ARTISTI()">Scarica</button>
                     </div>
                     <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
+                        <small class="text-muted">Aggiornato il 28/04/2024</small>
                     </div>
                 </div>
             </div>
@@ -47,11 +49,13 @@
             <div class="col container">
                 <div class="card h-100">
                     <div class="card-body">
-                        <h5 class="card-title">Card title 2</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <h5 class="card-title">Calcolo IMC</h5>
+                        <p class="card-text">Un semplice sito per il calcolo e dell'indice di massa corporea. Ti indicherà anche se sei maggiorenne o no in base al dato fornito.</p>
+                        <button class="btn btn-primary btn-sm">Visita</button>
+                        <button class="btn btn-secondary btn-sm" onclick="download_file_IMC()">Scarica</button>
                     </div>
                     <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
+                        <small class="text-muted">Aggiornato il 28/04/2024</small>
                     </div>
                 </div>
             </div>
@@ -59,11 +63,14 @@
             <div class="col container">
                 <div class="card h-100">
                     <div class="card-body">
-                        <h5 class="card-title">Card title 3</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <h5 class="card-title">I DIV</h5>
+                        <p class="card-text">Un sito molto ordinato dove potrai trovare una breve illustrazione dei primi 9 film della saga di Star Wars con un design semplice ma responsivo</p>
+                        <button class="btn btn-primary btn-sm">Visita</button>
+                        <button class="btn btn-secondary btn-sm">Scarica</button>
+                        <button class="btn btn-secondary btn-sm" onclick="download_file_IDIV()">Scarica</button>
                     </div>
                     <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
+                        <small class="text-muted">Aggiornato il 28/04/2024</small>
                     </div>
                 </div>
             </div>
@@ -97,5 +104,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!-- Include script per l'invio dell'email -->
     <script src="JS/mail.js"></script>
+    <script src="JS\donwload_file_management.js"></script>
 </footer>
 </html>
