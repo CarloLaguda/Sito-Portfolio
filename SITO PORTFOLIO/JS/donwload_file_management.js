@@ -1,31 +1,29 @@
-function download_file_IDIV(){
-    // Percorso relativo del file ZIP
-    var zipFilePath = 'FILE DONWLOADBLE/ESERCITAZIONE DIV.zip';
-    // Crea un link temporaneo per il download
+function downloadFile(filePath, fileName) {
+    //Scarica grazie ad un link temporaneo generato la cartella del progetto
     var link = document.createElement('a');
-    link.href = zipFilePath;
-    link.download = "ESERCITAZIONE DIV.zip";
-    // Aggiungi il link alla pagina e simula il click
+    link.href = filePath;
+    link.download = fileName;
     document.body.appendChild(link);
     link.click();
-    // Pulisci il link temporaneo
     document.body.removeChild(link);
+}
+
+//Funzioni che definiscono il file da scaricare
+function download_file_IDIV(){
+    downloadFile('FILE DONWLOADBLE/ESERCITAZIONE DIV.zip', 'ESERCITAZIONE DIV.zip');
 }
 function download_file_IMC(){
-    var zipFilePath = 'FILE DONWLOADBLE/CALCOLO IMC.zip';
-    var link = document.createElement('a');
-    link.href = zipFilePath;
-    link.download = "CALCOLO IMC.zip";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    downloadFile('FILE DONWLOADBLE/CALCOLO IMC.zip', 'CALCOLO IMC.zip');
 }
 function download_file_ARTISTI(){
-    var zipFilePath = 'FILE DONWLOADBLE/ARTISTI E TESTI MUSICALI.zip';
-    var link = document.createElement('a');
-    link.href = zipFilePath;
-    link.download = "ARTISTI E TESTI MUSICALI.zip";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    downloadFile('FILE DONWLOADBLE/ARTISTI E TESTI MUSICALI.zip', 'ARTISTI E TESTI MUSICALI.zip');
+}
+function download_file_MV2(){
+    downloadFile('FILE DONWLOADBLE/MUSEO VIRTUALE 2.0.zip', 'MUSEO VIRTUALE 2.0.zip');
+}
+function download_file_MV(){
+    downloadFile('FILE DONWLOADBLE/MUSEO VIRTUALE.zip', 'MUSEO VIRTUALE.zip');
+}
+function download_file_LISTE(){
+    downloadFile('FILE DONWLOADBLE/LISTE ORDINATE E IMG.zip', 'LISTE ORDINATE E IMG.zip');
 }
