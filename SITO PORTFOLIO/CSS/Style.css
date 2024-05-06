@@ -1,9 +1,9 @@
 /* Imposta l'altezza della pagina e del corpo, rimuove i margini e il padding predefiniti, e imposta il colore di sfondo per l'intera pagina */
-html, body {
-    height: 100%;
+html, body, footer{
+    height: 80%;
     margin: 0;
     padding: 0;
-    background: rgb(2,0,36); 
+    background-color: rgb(6, 68, 148);
 }
 /* Imposta la larghezza massima del contenitore del modulo di contatto */
 .maxDivMail {
@@ -30,8 +30,16 @@ html, body {
 }
 /*Spazio del modul mail da tutto il resto  */
 .span_mail{
-    margin-top: 220px;
+    margin-top: 150px;
 }
-.margin-btn-card{
-    padding-bottom: 5px;
+.space_card{
+    margin: 0 auto;
+    float: none;
+    width: 325px;
+    width: 450px;
+}
+
+h3{
+    padding-top: 30px;
+    text-align: center;
 }

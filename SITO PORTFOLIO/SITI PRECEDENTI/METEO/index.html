@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Metadati -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Titolo della pagina -->
+        <title>Meteo360°</title>
+        <!-- Collegamento ai fogli di stile CSS -->
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <!-- Contenitore principale -->
+        <div id="div_meteo" class="weather-container">
+            <!-- Titolo della pagina -->
+            <h1 id="titolo">Meteo360°</h1>
+            <!-- Input per l'inserimento della città -->
+            <input type="text" id="city" placeholder="Inserisci la città">
+            <!-- Bottone di ricerca -->
+            <button id="bottone">Cerca</button>
+            <!-- Icona meteorologica -->
+            <img id="weather-icon" alt="Weather Icon">
+            <!-- Dati meteorologici attuali -->
+            <div>
+                <h2 id="temperatura"></h2>
+                <h3 id="percepita"></h3>
+            </div>
+            <!-- Altre informazioni sulla città e il tempo -->
+            <div>
+                <p id="citta_ora"></p>
+                <p id="temp_max_min"></p>
+            </div>
+            <div>
+                <p id="Descrizione"></p>
+            </div>
+            <!-- Previsioni orarie -->
+            <div id="hourly-forecast"></div>
+            <!-- Dati meteorologici aggiuntivi -->
+            <div class="dati_aggiuntivi">
+                <!-- Titolo delle informazioni aggiuntive -->
+                <h2 id="altre_info" class="altre_info"></h2>
+                <!-- Umidità e pressione atmosferica -->
+                <div id="press_umidity">
+                    <h3 id="umidità"></h3>
+                    <h3 id="pressione"></h3>
+                </div>
+                <!-- Velocità e direzione del vento -->
+                <div id="vento">
+                    <h3 id="velocità_vento"></h3>
+                    <h3 id="direzione_vento"></h3>
+                </div>
+            </div> 
+        </div>
+    </body>
+    <!-- Collegamento ai file JavaScript -->
+    <footer>
+        <script src="script.js"></script>
+        <script src="functions.js"></script>
+    </footer>
+</html>

@@ -27,3 +27,6 @@ function download_file_MV(){
 function download_file_LISTE(){
     downloadFile('FILE DONWLOADBLE/LISTE ORDINATE E IMG.zip', 'LISTE ORDINATE E IMG.zip');
 }
+function download_file_METEO(){
+    downloadFile('FILE DONWLOADBLE/METEO.zip', 'METEO.zip');
+}
