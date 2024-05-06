@@ -1,13 +1,14 @@
 /* Imposta l'altezza della pagina e del corpo, rimuove i margini e il padding predefiniti, e imposta il colore di sfondo per l'intera pagina */
-html, body, footer{
-    height: 80%;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(6, 68, 148);
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100..900&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(180deg, #042657 0%, #0852bf 47%, #0b8796 95%);
+    font-family: 'Work Sans';
 }
 /* Imposta la larghezza massima del contenitore del modulo di contatto */
 .maxDivMail {
-    max-width: 650px;
+    max-width: 700px;
 }
 /*Spazio sello spot dal H1*/
 .span_From_H1{
@@ -28,9 +29,12 @@ html, body, footer{
 .space_name{
     padding: 20px;
 }
+.title{
+    font-size: 70px;
+}
 /*Spazio del modul mail da tutto il resto  */
 .span_mail{
-    margin-top: 150px;
+    margin-top: 100px;
 }
 .space_card{
     margin: 0 auto;
@@ -42,4 +46,13 @@ html, body, footer{
 h3{
     padding-top: 30px;
     text-align: center;
+}
+.sendBTN{
+    background-color: #042657;
+    border: solid 2px white;
+}
+
+.sendBTN:hover{
+    background-color: #041e42;
+    border: solid 3px white;
 }
