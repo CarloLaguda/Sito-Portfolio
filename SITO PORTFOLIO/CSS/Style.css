@@ -23,7 +23,7 @@ body{
 }
 /*Spazio del h1 h2 dall'inizio della pagina */
 .space_top{
-    padding: 75px;
+    margin-top: 80px;
 }
 /*Spazio del nome dall'inizio della pagina */
 .space_name{
@@ -41,6 +41,7 @@ body{
     float: none;
     width: 325px;
     width: 450px;
+    margin-top: -20px;
 }
 
 h3{
@@ -55,4 +56,9 @@ h3{
 .sendBTN:hover{
     background-color: #041e42;
     border: solid 3px white;
+}
+
+.secondLine{
+    margin-top: 95px;
+    max-width: 1800px;
 }

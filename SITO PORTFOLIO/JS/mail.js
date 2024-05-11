@@ -18,7 +18,7 @@ function inviaEmail(){
         messaggio: messaggio.value
     };
     // Cambia il testo del pulsante durante l'invio
-    btn.textContent = 'invio...';
+    btn.textContent = 'Invio...';
     // Invia l'email tramite EmailJS
     emailjs.send("service_vf3n3sk", "template_sd6f2da", params)
     .then(function (response) {
