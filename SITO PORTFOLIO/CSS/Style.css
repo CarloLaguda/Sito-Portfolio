@@ -57,8 +57,10 @@ h3{
     background-color: #041e42;
     border: solid 3px white;
 }
+.space-esplora{
+    margin-top: 160px;
+}
 
-.secondLine{
-    margin-top: 95px;
-    max-width: 1800px;
+.social-contact{
+    padding-top: 140px;
 }
