@@ -36,3 +36,12 @@ function download_Cartella_MVE(){
 function download_Cartella_PGLINK(){
     downloadFile('CARTELLE DONWLOADBLE/PAGINA LINKATA.zip', 'PAGINA LINKATA.zip');
 }
+function download_Cartella_SCR1(){
+    downloadFile('CARTELLE DONWLOADBLE/SCRIPT 1.zip', 'SCRIPT 1.zip');
+}
+function download_Cartella_SCR2(){
+    downloadFile('CARTELLE DONWLOADBLE/SCRIPT 2.zip', 'SCRIPT 2.zip');
+}
+function download_Cartella_SCR3(){
+    downloadFile('CARTELLE DONWLOADBLE/SCRIPT 3.zip', 'SCRIPT 3.zip');
+}
