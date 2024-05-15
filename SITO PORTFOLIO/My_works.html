@@ -6,10 +6,12 @@
         <title>I miei progetti</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"><!-- Bootstrap CSS -->
         <link rel="stylesheet" href="CSS\Style.css" type="text/css"> <!-- CSS -->
+        <link rel="stylesheet" href="CSS\animation.css" type="text/css" >
+        <link rel="stylesheet" href="CSS\responsive.css" type ="text/css">
         <link rel="shortcut icon" href="favicon\favicon-32x32.png" type="image/x-icon"> <!-- favicon -->
     </head>
     <body>
-        <div class="space_top">
+        <div class="space_top reveal">
             <div class="maxDivMail ms-5">
                 <h1 class="text-white"><b>I miei progetti</b></h1>
                 <div class="span_From_H1">
@@ -17,11 +19,11 @@
                 </div>
             </div>
         </div>
-        <div class="container" style="margin-top: 150px; max-width:1000px;">
+        <div class="container" style="margin-top: 150px; max-width:1000px;margin-bottom:100px;">
             <!--Prima colonna--> 
             <div class="row row-cols-1 row-cols-md-1 g-5">
                 <!--Prima riga--> 
-                <div class="col container">
+                <div class="col container reveal">
                     <div class="card h-100">
                         <div class="card-body">
                             <h5 class="card-title">Artisti Preferiti</h5>
@@ -35,7 +37,7 @@
                     </div>
                 </div>
                 <!--Seconda riga--> 
-                <div class="col container">
+                <div class="col container reveal">
                     <div class="card h-100">
                         <div class="card-body">
                             <h5 class="card-title">Calcolo IMC</h5>
@@ -49,7 +51,7 @@
                     </div>
                 </div>
                 <!--Terza riga--> 
-                <div class="col container">
+                <div class="col container reveal">
                     <div class="card h-100">
                         <div class="card-body">
                             <h5 class="card-title">I DIV</h5>
@@ -62,11 +64,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <!--Seconda colonna--> 
-            <div class="row row-cols-1 row-cols-md-1 g-5 mt-2">
                <!--Prima riga--> 
-                <div class="col container">
+                <div class="col container reveal">
                     <div class="card h-100">
                         <div class="card-body">
                             <h5 class="card-title">Liste ordinate e immagini</h5>
@@ -80,7 +79,7 @@
                     </div>
                 </div>
                 <!--Seconda riga--> 
-                <div class="col container">
+                <div class="col container reveal">
                     <div class="card h-100">
                         <div class="card-body">
                             <h5 class="card-title">Museo virtuale</h5>
@@ -94,7 +93,7 @@
                     </div>
                 </div>
                <!--Terza riga--> 
-                <div class="col container">
+                <div class="col container reveal">
                     <div class="card h-100">
                         <div class="card-body">
                             <h5 class="card-title">Museo virtuale 2.0</h5>
@@ -107,11 +106,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <!--Terza riga-->
-            <div class="row row-cols-1 row-cols-md-1 g-5 mt-2">
                 <!--Prima riga--> 
-                <div class="col container">
+                <div class="col container reveal">
                     <div class="card h-100">
                         <div class="card-body">
                             <h5 class="card-title">Meteo 360</h5>
@@ -125,7 +121,7 @@
                     </div>
                 </div>
                 <!--Seconda riga--> 
-                <div class="col container">
+                <div class="col container reveal">
                     <div class="card h-100">
                         <div class="card-body">
                             <h5 class="card-title">Museo virtuale editato</h5>
@@ -139,7 +135,7 @@
                     </div>
                 </div>
                 <!--colonna riga--> 
-                <div class="col container">
+                <div class="col container reveal">
                     <div class="card h-100">
                         <div class="card-body">
                             <h5 class="card-title">Pagina linkata</h5>
@@ -152,11 +148,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <!--quarta riga-->
-            <div class="row row-cols-1 row-cols-md-1 g-5 mt-2" style="margin-bottom:100px;">
-                <!--Prima riga--> 
-                <div class="col container">
+                <div class="col container reveal">
                     <div class="card h-100">
                         <div class="card-body">
                             <h5 class="card-title">Script 1</h5>
@@ -170,7 +162,7 @@
                     </div>
                 </div>
                 <!--Seconda riga--> 
-                <div class="col container">
+                <div class="col container reveal">
                     <div class="card h-100">
                         <div class="card-body">
                             <h5 class="card-title">Script 2</h5>
@@ -184,7 +176,7 @@
                     </div>
                 </div>
                 <!--colonna riga--> 
-                <div class="col container">
+                <div class="col container reveal">
                     <div class="card h-100">
                         <div class="card-body">
                             <h5 class="card-title">Script 3</h5>
@@ -197,11 +189,54 @@
                         </div>
                     </div>
                 </div>
+                <!---->
+                <div class="col container reveal">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Script 4</h5>
+                            <p class="card-text">Un magazzino di videogame con la possibilità per tutti di poter acquistarne i prodotti. Afrettati! le copie presto finiranno.</p>
+                            <a href="SITI PRECEDENTI\SCRIPT 4\index.html" target="_blank"><button class="btn btn-outline-primary">Visita</button></a>
+                        </div>
+                        <div class="card-footer ">
+                            <small class="text-muted">Aggiornato il 15/05/2024</small>
+                            <button class="btn btn-secondary btn-sm" onclick="download_Cartella_SCR4()">Scarica</button>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <div class="col container reveal">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Seleziona e visualizza</h5>
+                            <p class="card-text">Per capire il JSON dovrai prima visualizzare il JSON! Con questo sito puo selezionare il numero di elenco di un mio compagno di classe e visualizzarlo di seguito.</p>
+                            <a href="SITI PRECEDENTI\SELEZIONA E VISUALIZZA UN ELEMENTO" target="_blank"><button class="btn btn-outline-primary">Visita</button></a>
+                        </div>
+                        <div class="card-footer ">
+                            <small class="text-muted">Aggiornato il 15/05/2024</small>
+                            <button class="btn btn-secondary btn-sm" onclick="download_Cartella_SELVIEW()">Scarica</button>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <div class="col container reveal">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Orario scolastico</h5>
+                            <p class="card-text">Qaunto siamo smemorati noi studenti d'oggi?! figuriamoci quanto lo erano i nostri genitori. Ecco un sito con il tuo orario scolastico per non dimenticarlo pi&uacute;.</p>
+                            <a href="SITI PRECEDENTI\SITO WEB ORARIO\Homepage_SitoWeb.html" target="_blank"><button class="btn btn-outline-primary">Visita</button></a>
+                        </div>
+                        <div class="card-footer ">
+                            <small class="text-muted">Aggiornato il 15/05/2024</small>
+                            <button class="btn btn-secondary btn-sm" onclick="download_Cartella_TIMETABLE()">Scarica</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <footer>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
             <script src="JS\donwload_folder_management.js"></script>
+            <script src="JS/animation.js"></script>
         </footer>
     </body>
 </html>

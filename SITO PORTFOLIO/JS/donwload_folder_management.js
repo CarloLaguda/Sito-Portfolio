@@ -45,3 +45,12 @@ function download_Cartella_SCR2(){
 function download_Cartella_SCR3(){
     downloadFile('CARTELLE DONWLOADBLE/SCRIPT 3.zip', 'SCRIPT 3.zip');
 }
+function download_Cartella_SCR4(){
+    downloadFile('CARTELLE DONWLOADBLE/SCRIPT 4.zip', 'SCRIPT 4.zip');
+}
+function download_Cartella_TIMETABLE(){
+    downloadFile('CARTELLE DONWLOADBLE/SITO WEB ORARIO.zip', 'SITO WEB ORARIO.zip');
+}
+function download_Cartella_SELVIEW(){
+    downloadFile('CARTELLE DONWLOADBLE/SELEZIONA E VISUALIZZA UN ELEMENTO.zip', 'SELEZIONA E VISUALIZZA UN ELEMENTO.zip');
+}

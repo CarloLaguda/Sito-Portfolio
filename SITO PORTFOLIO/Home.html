@@ -5,7 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1"> 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"><!-- Bootstrap CSS -->
         <link rel="stylesheet" href="CSS\Style.css" type="text/css"> <!-- CSS -->
-        <link rel="stylesheet" href="CC\responsive.css" type = "text/css">
+        <link rel="stylesheet" href="CSS\animation.css" type="text/css" >
+        <link rel="stylesheet" href="CSS\responsive.css" type ="text/css">
         <link rel="shortcut icon" href="FAVICON\favicon-32x32.png" type="image/x-icon"> <!-- favicon -->
         <!-- Include EmailJS library -->
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
@@ -13,11 +14,11 @@
     </head>
     <body>
         <!-- Titolo -->
-        <div class="container text-white space_name ">
-            <h1 class="text-center title" >Carlo Laguda</h1>
+        <div class="container text-white space_name reveal">
+            <h1 class="text-center title " >Carlo Laguda</h1>
         </div>
         <!--Descrizione -->
-        <div class="space_top">
+        <div class="space_top reveal">
             <div class="maxDivMail ms-5">
                 <h1 class="text-white"><b>Let's build together</b></h1>
                 <div class="span_From_H1">
@@ -26,7 +27,7 @@
                 </div>
             </div>
         </div>
-        <div class="me-5 mt-5">
+        <div class="me-5 mt-5 reveal">
             <h2 class="text-white text-end mb-2">Chi sono?</h2>
             <p class="text-white text-end fs-4 mt-4">Sono nato a Milano il 7 luglio 2007. <br>
                 Nonostante la mia  et&aacute; ho collaborato <br>
@@ -38,7 +39,7 @@
                 nell'ambito del Web developing <br>
             </p> 
         </div>
-        <div class="space-esplora">
+        <div class="space-esplora reveal">
             <div class="maxDivMail ms-5">
                 <h2 class="text-white">Esplora tutti mi miei progetti.</h2>
                 <p class="text-white fs-4 text">Visualizza tutti i miei progetti realizzzati nella mia carriera. <br>
@@ -48,7 +49,7 @@
                 <a class="btn btn-primary btn-lg" href="My_works.html">Visualizza i progetti</a>
             </div>
         </div>
-        <div class="card space_card mt-5">
+        <div class="card space_card mt-5 reveal">
             <img src="IMMAGINI\img_lastProject.png" class="card-img-top" alt="Ultimo progetto realizzato">
             <div class="card-body">
                 <h5 class="card-title">Il meteo</h5>
@@ -57,32 +58,32 @@
                 <a class="btn btn-secondary" role="button" href="SITI PRECEDENTI\METEO\index.html" target="_blank">Visita</a>
             </div>
         </div>
-        <div class="space_card">
+        <div class="space_card reveal">
             <h3 class="text-white mt-1">Visulizza l'ultimo progetto da me realizzato con la possibilità di esporarlo e scaricarlo!</h3>
         </div>
         
-        <div class="container mt-5" style="max-width: 1400px;">
-            <div class="row">
+        <div class="container mt-5 reveal" style="max-width: 1400px;">
+            <div class="row" style="margin-top:230px">
                 <h2 class="text-center text-white">I mie servizzi</h2>
                 <div class="mt-5 bg-transparent  ms-5" style="width: 18rem;">
                     <h5 class="card-title text-white">Front-End developing</h5>
-                    <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text text-white">Sarò abile nel creare una grafica efficente e un layout ottimale per il tuo sito web</p>
                 </div>
                 <div class="mt-5 bg-transparent ms-5" style="width: 18rem;">
-                    <h5 class="card-title text-white">Front-Back developing</h5>
-                    <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 class="card-title text-white">Back-end developing</h5>
+                    <p class="card-text text-white">Renderò il tuo sito funzionale e ottimale per ogni tipo di interazioni con i tuoi utenti</p>
                 </div>
                 <div class="mt-5 bg-transparent ms-5" style="width: 18rem;">
                     <h5 class="card-title text-white">Electronic Knoledge</h5>
-                    <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text text-white">La mia conoscenza in elettronica e telecomunicazione ti tornerà certo utile</p>
                 </div>
                 <div class="mt-5 bg-transparent ms-5" style="width: 18rem;">
                     <h5 class="card-title text-white">Software developing</h5>
-                    <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text text-white">Conosco molti linguaggi di programmazione e posso svilupparti software</p>
                 </div>
             </div>
         </div>
-        <div class="container maxDivMail span_mail mb-5">
+        <div class="container maxDivMail span_mail mb-5 reveal" style="margin-top: 230px;">
             <h2 class="text-white mb-5">Sentiti libero di contattarmi quando vuoi!</h2>
             <div class="mb-5">
                 <div class="mb-3">
@@ -104,7 +105,7 @@
                 <button class="btn text-white mb-5 sendBTN btn-lg" id="button" onclick="inviaEmail()">Invia</button>
             </div>
         </div>
-        <div class="social-contact container" style="max-width:1400px; height: 350px">
+        <div class="social-contact container reveal" style="max-width:1400px; height: 350px">
             <div style="max-width: 680px;" class="bg-succes">
                 <h2 class="text-white text-center">Social</h2>
                 <div class="container bg-succes" style="max-width: 250px;">
@@ -128,5 +129,6 @@
         <!-- Include script per l'invio dell'email -->
         <script src="JS/mail.js"></script>
         <script src="JS/donwload_folder_management.js"></script>
+        <script src="JS/animation.js"></script>
     </footer>
 </html>
