@@ -22,20 +22,17 @@ function inviaEmail(){
     // Invia l'email tramite EmailJS
     emailjs.send("service_vf3n3sk", "template_sd6f2da", params)
     .then(function (response) {
-        // Mostra un messaggio di successo
-        alert("Email inviata con successo!");
         // Resetta i campi del modulo dopo l'invio
         nome.value = '';
         contatto.value = '';
         messaggio.value = '';
+        // Mostra un messaggio di successo
+        alert("Email inviata con successo!");
         btn.textContent = 'Invia';
     }, function (error) {
         // Mostra un messaggio di errore in caso di fallimento
         alert("Errore durante l'invio dell'email: " + error);
         // Resetta i campi del modulo in caso di errore
         btn.textContent = 'Invia';
-        nome.value = '';
-        contatto.value = '';
-        messaggio.value = '';
     });
 }
